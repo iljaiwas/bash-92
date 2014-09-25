@@ -311,6 +311,9 @@ initialize_shell_variables (env, privmode)
 	 the environment in privileged mode. */
       if (privmode == 0 && read_but_dont_execute == 0 && STREQN ("() {", string, 4))
 	{
+		report_error (_("error importing function definition for `%s'"), name);
+		return;
+		
 	  string_length = strlen (string);
 	  temp_string = (char *)xmalloc (3 + string_length + char_index);
 
