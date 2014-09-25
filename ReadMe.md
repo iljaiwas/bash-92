@@ -1,4 +1,4 @@
-Since there is no official patch from Apple for the recently published [shell vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271), here is a version of the bash that ships with OS X 10.8.x and 10.9.x that turns off the bash feature responsible for the exploit.
+Since there is no official patch from Apple yet for the recently published [shell vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271), here is a version of the bash that ships with OS X 10.8.x and 10.9.x, which turns off the bash feature responsible for the exploit.
 
 The source for this version of bash is taken from Apple's [open source website](http://opensource.apple.com/source/bash/bash-92/).
 
